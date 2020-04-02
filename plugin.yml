@@ -1,0 +1,17 @@
+name: Mysql
+main: fr.lennydu91.btto.mysql.Main
+version: 1.0
+description: Plugin MySql btto
+author: lennydu91
+
+commands:
+  getstats:
+    description: Recup des stats dun joueur
+    usage: /getstats <player>
+    aliases:
+    - gstats
+  site-web:
+    description: Fait la liaison avec le site-web
+    usage: /site-web <player>
+    aliases:
+    - site
